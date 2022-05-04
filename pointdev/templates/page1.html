@@ -1,0 +1,417 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="../static/css/main.css">
+    <!-- Bootstrap SVGs -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.0/font/bootstrap-icons.css">
+
+    <title>ZBlog</title>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-original">
+      <div class="container">
+        <a class="navbar-brand" href="#"><img src="../static/img/zglitch.gif" alt="" width="190"></a> <!-- YOUR BRAND LOGO -->
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon" style="background-color: #4717f6;"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Blogs</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Tags</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Supporters</a>
+            </li>
+          </ul>
+          <form class="d-flex">
+            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+            <button class="btn original text-white" type="submit">Search</button>
+          </form>
+        </div>
+      </div>
+    </nav>
+
+    <!-- ARTICLE SECTION begins -->
+    <div class="container main-content blog-content">
+      <div class="row justify-content-center">
+        <!-- main article side begins -->
+        <div class="col-md-11 col-lg-8 with-headerlinks">
+          <!-- image -->
+          <figure class="embed-responsive embed-responsive-16by9">
+            <img src="../static/img/test.png" class="card-img-top m-0 p-0 embed-responsive-item" style="object-fit: contain;">
+          </figure>
+
+          <!-- heading -->
+          <h1 class="pb-3 article-title fw-bold">This is a text which is the heading provided in the card</h1>
+
+          <!-- article body begins -->
+          <div class="article-body">
+            <!-- agenda begins -->
+            <div class="bg-light sidebar-module sidebar-module-inset">
+              <h3 class="h3 mb-2 text-muted">Article Agendas</h3>
+
+              <!-- table of contents -->
+              <div class="toc">
+                <ul>
+                  <li>
+                    <a href="#">This is Agenda Example. Use Camel Case Wherever Necessary.</a>
+                  </li>
+                  <li>
+                    <a href="#">This is Agenda Example. Use Camel Case Wherever Necessary.</a>
+                  </li>
+                  <li>
+                    <a href="#">This is Agenda Example. Use Camel Case Wherever Necessary.</a>
+                  </li>
+                  <li>
+                    <a href="#">This is Agenda Example. Use Camel Case Wherever Necessary.</a>
+                  </li>
+                  <li>
+                    <a href="#">This is Agenda Example. Use Camel Case Wherever Necessary.</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- agenda ends -->
+
+            <!-- Paragraph example -->
+            <p>This is a Paragraph example. Increase the font size of this para and use strong to focus on <strong>bold words</strong> and also use a hrefs inside paras.</p>
+            <p>This is a Paragraph example. Increase the font size of this para and use strong to focus on <strong>bold words</strong> and also use a hrefs inside paras.</p>
+            <p>Below is an example of <strong>inline Ads being displayed. Enjoy!</strong></p>
+            
+            <!-- Ads between paragraph example -->
+            <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+              <!-- ad -->
+              <div style="display:block;position:relative;">
+                <div style="display:block;width:100%;padding-top:12.5%;"></div>
+
+                <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                  <a href="#" target="_blank" rel="nofollow">
+                    <!-- put ad image here size(960 x 120) -->
+                    <img src="https://via.placeholder.com/960x120" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                  </a>
+                </div>
+              </div>
+
+              <!-- remove ad -->
+              <a href="#" class="small text-muted" rel="nofollow">
+                <i class="bi bi-gift-fill" aria-hidden="true">
+                  Advertisement
+                </i>
+              </a>
+            </div>
+            <!-- Ads between paragraph example ends -->
+
+            <p>This is a Paragraph example. Increase the font size of this para and use strong to focus on <strong>bold words</strong> and also use a hrefs inside paras.</p>
+            <p>This is a Paragraph example. Increase the font size of this para and use strong to focus on <strong>bold words</strong> and also use a hrefs inside paras.</p>
+            <p>Below is an example of <strong>inline Alerts being displayed. Enjoy!</strong></p>
+
+            <!-- Alert emphasis example -->
+            <div class="alert alert-primary" role="alert">
+              <p>
+                <strong>Free Bonus:</strong>
+                <a href="#" class="alert-link">
+                  I am a link! for resources
+                </a>
+
+                You are expected to use different alert examples from <strong>Bootstrap</strong> will help a lot. Use Different Alert themes to show danger, info, etc
+                You can also use alerts to give shoutouts of your products
+              </p>
+            </div>
+            <!-- Alert emphasis example  ends-->
+
+            <p>The following will demonstrate the useage of headings <strong>Along with other blogging essentials</strong></p>
+
+            <!-- another topic -->
+            <div class="subtopic">
+
+              <!-- topic heading -->
+              <div class="h2 fw-bold article-topic">I am a short topic : wrap me in article-title, denote me with h2, fw-bold</div>
+              
+              <!-- paragraph example -->
+              <p>The topic is followed by a couple of paragraphs to give it a neat content feeling</p>
+              <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+              <p>Now here comes the <strong>subtopic</strong>. Use subtopics to break down several topics into neater versions as it is easier for the reader to digest and is convenient.</p>
+
+              <!-- subtopic -->
+              <div class="article-sub-topic">
+                <div class="h3">I am a Subtopic : wrap this section in article-sub-topic, denote me with h3</div>
+              
+                <!-- blockquote -->
+                <blockquote>
+                  <p>
+                    This is a blockquote example. Use me like this to explain a reference or quote from a source.
+                    Change the color to match the theme purple. <a href="#">(Click the source)</a>
+                  </p>
+                </blockquote>
+              </div>
+              <!-- subtopic ends -->
+              
+              <!-- subtopic -->
+              <div class="article-sub-topic">
+                <div class="h3">Another subtopic for formality. See my wrapping.</div>
+              
+                <!-- watch a video or go to a link. -->
+                <div class="border rounded p-3 card mb-2">
+                  <p class="mb-0">
+                    <span class="blue-secondary-bg category badge black">
+                      <i class="bi bi-play-circle-fill text-dark"> Watch Now</i>
+                    </span>
+
+                    You can use me to redirect the readers to an external resources, videos or another article.
+                    You may also use me to take them to external links.
+
+                    <a href="#" class="fw-bold blue">Like this one</a>
+                  </p>
+                </div>
+
+
+
+              </div>
+              <!-- subtopic ends -->
+
+            </div>
+
+          </div>
+          <!-- article body ends -->
+
+        </div>
+        <!-- main article side ends -->
+      
+
+        <!-- SIDEBAR SECTION begins -->
+        <div class="col-md-7 col-lg-4">
+          <!-- tags section begins -->
+          <div class="sidebar-module sidebar-module-inset border">
+            <h4><a href="#">Explore more</a></h4>
+
+            <!-- tags -->
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+          </div>
+          <!-- tags section ends -->
+
+          <!-- sidebar ads example -->
+          <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+            <!-- ad -->
+            <div style="display:block;position:relative;">
+              <div style="display:block;width:100%;padding-top:12.5%;"></div>
+
+              <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                <a href="#" target="_blank" rel="nofollow">
+                  <!-- put ad image here size(960 x 120) -->
+                  <img src="https://via.placeholder.com/960x120" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                </a>
+              </div>
+            </div>
+
+            <!-- remove ad -->
+            <a href="#" class="small text-muted" rel="nofollow">
+              <i class="bi bi-gift-fill" aria-hidden="true">
+                Advertisement
+              </i>
+            </a>
+          </div>
+
+          <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+            <!-- ad -->
+            <div style="display:block;position:relative;">
+              <div style="display:block;width:100%;padding-top:100%;"></div>
+
+              <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                <a href="#" target="_blank" rel="nofollow">
+                  <!-- put ad image here size(1000x1000) -->
+                  <img src="https://via.placeholder.com/1000x1000" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                </a>
+              </div>
+            </div>
+
+            <!-- remove ad -->
+            <a href="#" class="small text-muted" rel="nofollow">
+              <i class="bi bi-award-fill" aria-hidden="true">
+                Sponsor
+              </i>
+            </a>
+          </div>
+
+          <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+            <!-- ad -->
+            <div style="display:block;position:relative;">
+              <div style="display:block;width:100%;padding-top:25%;"></div>
+
+              <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                <a href="#" target="_blank" rel="nofollow">
+                  <!-- put ad image here size(800x200) -->
+                  <img src="https://via.placeholder.com/800x200" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                </a>
+              </div>
+            </div>
+
+            <!-- remove ad -->
+            <a href="#" class="small text-muted" rel="nofollow">
+              <i class="bi bi-gift-fill" aria-hidden="true">
+                Advertisement
+              </i>
+            </a>
+          </div>
+          <!-- sidebar ads example ends-->
+
+          <!-- sticky sidebar begins -->
+          <div class="sidebar-sticky">
+
+            <!-- contents -->
+            <!-- tags section begins -->
+          <div class="sidebar-module sidebar-module-inset border">
+            <h4><a href="#">This is a sticky sidebar</a></h4>
+
+            <!-- tags -->
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+            <a href="#" class=" purple-secondary-bg category badge black">Python</a>
+          </div>
+          <!-- tags section ends -->
+
+          <!-- sidebar ads example -->
+          <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+            <!-- ad -->
+            <div style="display:block;position:relative;">
+              <div style="display:block;width:100%;padding-top:12.5%;"></div>
+
+              <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                <a href="#" target="_blank" rel="nofollow">
+                  <!-- put ad image here size(960 x 120) -->
+                  <img src="https://via.placeholder.com/960x120" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                </a>
+              </div>
+            </div>
+
+            <!-- remove ad -->
+            <a href="#" class="small text-muted" rel="nofollow">
+              <i class="bi bi-gift-fill" aria-hidden="true">
+                Advertisement
+              </i>
+            </a>
+          </div>
+
+          <div class="sidebar-module sidebar-module-inset p-0" style="overflow:hidden;">
+            <!-- ad -->
+            <div style="display:block;position:relative;">
+              <div style="display:block;width:100%;padding-top:25%;"></div>
+
+              <div class="rounded border" style="position:absolute;left:0;top:0;right:0;bottom:0;overflow:hidden;">
+                <a href="#" target="_blank" rel="nofollow">
+                  <!-- put ad image here size(1000x1000) -->
+                  <img src="https://via.placeholder.com/800x200" alt="" style="max-width:100%; max-height:100%; width:100%;">
+                </a>
+              </div>
+            </div>
+
+            <!-- remove ad -->
+            <a href="#" class="small text-muted" rel="nofollow">
+              <i class="bi bi-gift-fill" aria-hidden="true">
+                Advertisement
+              </i>
+            </a>
+          </div>
+          <!-- sidebar ads example ends-->
+
+          </div>
+          <!-- sticky sidebar ends -->
+
+        </div>
+        <!-- SIDEBAR SECTION ends -->
+      </div>
+    </div>
+    <!-- ARTICLE SECTION ends -->
+
+    <!-- FOOTER begins -->
+    <div class="site-footer bg-original" style="position: relative; overflow: hidden;">
+        <div class="container-fluid">
+            <div class="back-text">
+                pointman.dev
+            </div>
+        </div>
+        <div class="container">
+            <div class="row justify-content-center copyright">
+                <div class="col-lg-7 text-center">
+                    <!-- icons -->
+                    <div class="widget">
+                        <div class="social list-unstyled">
+
+                            <!-- github -->
+                            <li>
+                                <a href="#">
+                                    <span class="bi bi-github"></span>
+                                </a>
+                            </li>
+                            <!-- website -->
+                            <li>
+                                <a href="#">
+                                    <span class="bi bi-link-45deg"></span>
+                                </a>
+                            </li>
+                            <!-- youtube -->
+                            <li>
+                                <a href="#">
+                                    <span class="bi bi-youtube"></span>
+                                </a>
+                            </li>
+                            <!-- linkedin -->
+                            <li>
+                                <a href="#">
+                                    <span class="bi bi-linkedin"></span>
+                                </a>
+                            </li>
+                        </div>
+                    </div>
+                    <div class="widget">
+                        <p style="z-index:5; position: relative;">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script>
+                             All rights reserved | Developed by
+                            <a href="#" target="_blank" rel="nofollow noopener" class="purple">
+                                P0intMaN
+                            </a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- FOOTER ends -->
+    <!-- Home section ends -->
+    
+
+    <!-- Bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+   
+  </body>
+</html>
