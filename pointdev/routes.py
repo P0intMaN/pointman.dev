@@ -15,7 +15,7 @@ def blogs():
 
 @app.route('/join') 
 def join():
-    return render_template('home.html')
+    return render_template('join.html')
 
 @app.route('/store') 
 def store():
