@@ -56,6 +56,10 @@ figure{
 .embed-responsive-16by9::before{
     padding-top: 56.25%;
 }
+.shadow{
+    background-color: white!important;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px!important;
+}
 /* GENERALS END */
 
 /* TEXT DECORATION */
