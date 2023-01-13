@@ -24,3 +24,7 @@ def store():
 @app.route('/page1') 
 def pages():
     return render_template('page1.html')
+
+@app.route('/video') 
+def video():
+    return render_template('video1.html')
